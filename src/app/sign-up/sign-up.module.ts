@@ -10,6 +10,9 @@ import { SignUpComponent } from './sign-up.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    SignUpComponent
   ]
 })
 export class SignUpModule { }

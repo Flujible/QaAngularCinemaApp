@@ -10,6 +10,9 @@ import { ScheduleComponent } from './schedule.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    ScheduleComponent
   ]
 })
 export class ScheduleModule { }
